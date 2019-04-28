@@ -1,0 +1,4 @@
+task :default do
+  system 'rustc -v main.rs'
+  system './main'
+end
