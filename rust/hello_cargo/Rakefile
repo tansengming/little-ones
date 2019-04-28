@@ -1,0 +1,6 @@
+task :default do
+  system 'cargo run'
+end
+
+# cargo build --release
+# cargo check
